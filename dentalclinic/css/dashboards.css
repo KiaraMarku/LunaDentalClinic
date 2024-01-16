@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&family=Playfair+Display:wght@500&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none ;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif  ;
+  }
+
+  /* body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(22, 16, 126) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  }
+   */
+
+  .page{
+    display: flex;
+    width: 1200px;
+    height: fit-content;
+    margin: auto;
+  
+  }
+  nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 280px;
+    height: 110vh;
+    background: #fff;
+    box-shadow: -10px  5px 20px lightblue;
+  }
+
+  .navigationbar{
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .logo{
+    margin: 2rem 0 1rem 0;
+    padding-bottom: 3rem;
+    display: flex;
+    align-items: center;
+  }
+  .logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .logo h1{
+    margin-left: 1rem;
+    text-transform: uppercase;
+  }
+  
+  ul{
+    margin: 0 auto !important;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  li{
+    padding-bottom: 2rem; 
+
+  }
+  li a{
+    font-size: 16px;
+    /* color: rgb(7, 61, 137); 
+    text-shadow: 2px 4px 5px #9df8f8; */
+    color: rgb(85, 83, 83); 
+    text-decoration: none !important;
+  
+  }
+ 
+  nav i{
+  
+    width: 50px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .logout{
+    position: absolute;
+    bottom: 20px;
+  }
+  
+  /* Main Section */
+  .main{
+    width: 100%;
+    height: min-content;
+  }
+  
+  
+  .main-body{
+    padding: 10px 10px 10px 20px;
+    color: aliceblue;
+
+  }
+  h1{
+    margin: 20px 10px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+  }
+
+
+.main-board{
+  width: 100%;
+  min-height: 650px;
+  flex-grow: 1; 
+  padding: 15px;
+  display: flex;
+  border-radius: 10px;
+  background: #fff;
+  margin-bottom: 15px;
+  justify-content: space-between;
+  border: 2px solid rgb(190, 190, 190);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+  
+  

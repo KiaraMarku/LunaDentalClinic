@@ -1,0 +1,21 @@
+
+    
+    #accountDetails ,#medicalInfo { 
+        box-shadow: 10px 10px 5px lightblue;
+        padding: 20px;
+        width: 400px;
+        height: max-content;
+        color: #000;  
+        font-size: 16px;
+        color: #000;
+        margin: 20px;
+    }
+    
+    #accountDetails h2 ,#medicalInfo h2 {
+        font-size: 20px;
+       
+    }
+  
+
+
+  
